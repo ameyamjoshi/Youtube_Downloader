@@ -11,9 +11,7 @@ def Download():
     return"Done"
 
 
-# a=input()
-# b=input()
-# Download(a,b)
+
 main=Tk()
 main.title("Downloader")
 main.geometry('300x300')
@@ -26,6 +24,4 @@ lblIntRate = Label(main, text = 'Path:').grid(row = 1, column = 0, padx = 30, pa
 entIntRate = Entry(main, textvariable = b).grid(row = 1, column = 1)
 
 btn = Button(main, text = 'Download Completed', command=Download).grid(row = 5, column = 1)
-#download=Download()
-#lblMonthly = Label(main, text =  % download).grid(row = 3, column = 0, padx = 0, pady = 10)
 main.mainloop()
